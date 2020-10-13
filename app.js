@@ -14,6 +14,9 @@ function randomString(l) {
    return result;
 }
 
+io.origins(['https://oscarlang.me:443']);
+
+
 io.on('connection', function (socket) {
     console.info("User connected");
 
@@ -32,4 +35,4 @@ io.on('connection', function (socket) {
     });
 });
 
-server.listen(2222);
+server.listen(8300);
