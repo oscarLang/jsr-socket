@@ -14,7 +14,7 @@ function randomString(l) {
    return result;
 }
 
-io.origins(['https://oscarlang.me:443', "http://localhost:3000"]);
+io.origins(['https://oscarlang.tech:443', "http://localhost:3000"]);
 
 
 io.on('connection', function (socket) {
